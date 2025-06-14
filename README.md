@@ -1,97 +1,141 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Haqqathon - Islamic Finance App 🕌
 
-# Getting Started
+A React Native application for Sharia-compliant personal finance management, featuring round-up savings, halal investments, and sadaqah (charity) contributions.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🌟 Features
 
-## Step 1: Start Metro
+### 💰 Smart Round-Up System
+- Automatically rounds up purchases to the nearest pound
+- Allocates spare change across your chosen portfolio
+- Customizable rounding amounts based on transaction size
+- Real-time tracking of monthly round-ups
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+### 📈 Halal Investments
+- **Islamic ETFs**: Sharia-compliant exchange-traded funds
+- **Halal Individual Stocks**: Carefully screened companies
+- **Sukuk Bonds**: Islamic bonds compliant with Sharia law
+- All investments regularly screened for Islamic principles
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 🤲 Sadaqah Projects
+- Support humanitarian causes worldwide
+- Categories include:
+  - Emergency Relief 
+  - Education 
+  - Places of Worship 
+  - Water Projects 
+- Direct impact tracking and updates
 
-```sh
-# Using npm
-npm start
+### 🏦 Sharia-Compliant Savings
+- Interest-free savings accounts
+- Emergency fund goal setting (3, 6, 12 months)
+- FSCS protected bank integration
+- Instant access to funds
 
-# OR using Yarn
-yarn start
-```
+### ⚙️ Settings & Customization
+- Dark mode support
+- Portfolio allocation adjustment
+- Round-up preferences
+- Investment distribution controls
 
-## Step 2: Build and run your app
+## 🛠️ Technology Stack
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- **Framework**: React Native
+- **Language**: TypeScript
+- **Navigation**: React Navigation
+- **Styling**: StyleSheet (React Native)
+- **State Management**: React Hooks (useState)
+- **Platform**: iOS & Android
 
-### Android
 
-```sh
-# Using npm
-npm run android
+## 🚀 Getting Started
 
-# OR using Yarn
-yarn android
-```
+### Prerequisites
 
-### iOS
+- Node.js (v16 or higher)
+- React Native CLI
+- iOS Simulator (for iOS development)
+- Android Studio (for Android development)
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### Installation
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Haqqathon
+   ```
 
-```sh
-bundle install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Then, and every time you update your native dependencies, run:
+3. **iOS Setup**
+   ```bash
+   cd ios
+   bundle install
+   bundle exec pod install
+   cd ..
+   ```
 
-```sh
-bundle exec pod install
-```
+4. **Run the application**
+   
+   For iOS:
+   ```bash
+   npm run ios
+   ```
+   
+   For Android:
+   ```bash
+   npm run android
+   ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 💡 Key Features Explained
 
-```sh
-# Using npm
-npm run ios
+### Round-Up Allocation
+Users can customize how their spare change is distributed:
+- **Sadaqah Projects**: 40% (default)
+- **Halal Investments**: 35% (default)
+- **Bank Savings**: 25% (default)
 
-# OR using Yarn
-yarn ios
-```
+### Investment Categories
+1. **Islamic ETFs** 
+   - HLAL - Wahed FTSE USA Shariah ETF
+   - SPUS - SP Funds S&P 500 Sharia ETF
+   - UMMA - Wahed Dow Jones Islamic World ETF
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+2. **Sukuk Bonds** 
+   - SPSK - SPDR Bloomberg Sukuk Bond ETF
+   - UAE & Malaysia Government Sukuk
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
+### Sharia Compliance
+- **No Interest (Riba)**: All financial products are interest-free
+- **Halal Screening**: Investments are regularly screened for Islamic compliance
+- **Profit Sharing**: Returns based on profit-sharing models
+- **Ethical Investments**: Focus on socially responsible companies
 
-Now that you have successfully run the app, let's make changes!
+## 🎨 UI/UX Features
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+- **Dark Mode Support**: Automatic system theme detection
+- **Responsive Design**: Optimized for various screen sizes
+- **Intuitive Navigation**: Easy-to-use interface
+- **Real-time Updates**: Live portfolio tracking
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## 🔒 Security & Compliance
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+- **FSCS Protection**: Bank savings protected up to £85,000
+- **Secure Transactions**: All financial operations are encrypted
+- **Sharia Audit**: Regular compliance checks
+- **Privacy First**: User data protection
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+## Acknowledgments
 
-### Now what?
+- STEM Muslims Imperial College London
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
+**Built with ❤️ for the Muslim community worldwide**
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+*Ensuring your wealth grows in accordance with Islamic principles while making a positive impact through charitable giving.*
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
